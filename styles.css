@@ -1,4 +1,15 @@
-body{
+/* body{
     background-image: url("portfolio_bubble.png");
+} */
+
+.parallax{
+    background-image: url("portfolio_bubble.png") ;
+    /* max-height: 1000px; */
+    min-height: 2500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
+
 
