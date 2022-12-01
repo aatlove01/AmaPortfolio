@@ -1,11 +1,12 @@
-/* body{
-    overflow: hidden;
-} */
+body{
+    font-size: "Lato", sans-serif;
+}
 
+/* the top header of the page stuck to the parallax */
 .header{
     background-color: white;
     position: fixed;
-    height: 3em;
+    height: 25px;
     width: 93.5em;
     border: 3px solid black;
 }
@@ -15,10 +16,30 @@
     background-image: url("portfolio_bubble.png") ;
     /* max-height: 1000px; */
     min-height: 2500px;
-
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-}
+} 
 
-
+/* help from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_sticky */
+ 
+  .nav {
+    /* float: left; */
+    position: relative;
+  }
+  
+  .nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav a:hover {
+    background-color: crimson;
+  }
+  
+  .active {
+    background-color: white;
+  }
