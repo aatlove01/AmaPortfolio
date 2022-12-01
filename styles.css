@@ -24,8 +24,11 @@ body{
 /* help from https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_sticky */
  
   .nav {
-    /* float: left; */
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+
   }
   
   .nav a {
