@@ -1,22 +1,22 @@
 body{
   font-family: 'Shadows Into Light Two', cursive;
   font-family: 'Staatliches', cursive;
+    
+ }
   
-}
-
 .header{
   cursor: pointer;
 }
-
+  
 /* rectangle for header */
 .rectangle{
   background-color: gainsboro;
   height: 2.5px;
   width: 96em;
 }
-
-/* featured projects title */
-.featured{
+  
+/* testimonies title */
+.testimonies{
   font-family:'Staatliches', cursive;
   font-size: 60px;
   margin-top: 50px;
@@ -24,49 +24,16 @@ body{
   display: flex;
   justify-content: center;
 }
-
-/* featured projects images and hovering */
-.FeaturedImages{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.rectangle1{
-  background-color: gainsboro;
-  height: 350px;
-  width: 300px;
-  border-radius: 10%;
-}
-
-.rectangle2{
-  background-color: gainsboro;
-  height: 350px;
-  width: 300px;
-  border-radius: 10%;
-}
-
-.rectangle3{
-  background-color: gainsboro;
-  height: 350px;
-  width: 300px;
-  border-radius: 10%;
-}
-
-img{
-  border-radius: 10%;
-  width: 345px;
-  height: 412px;
-}
-
+  
+    
 .hamburger{
   margin-left: 20px;
   color: gainsboro;
   font-size: 40px;
   display: flex;
+    
+}
   
-  }
-
 #title{
   font-family: 'Staatliches', cursive;
   font-size: 40px;
@@ -76,10 +43,10 @@ img{
   justify-content: center;
   margin-left: 600px;
 }
-
+  
 /* w3school side navigation */
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav */
-
+  
 .sidenav {
   height: 100%;
   width: 0;
@@ -92,7 +59,7 @@ img{
   transition: 0.5s;
   padding-top: 60px;
 }
-
+  
 .sidenav a {
   font-family: 'Staatliches', cursive;
   padding: 8px 8px 8px 32px;
@@ -102,11 +69,11 @@ img{
   display: block;
   transition: 0.3s;
 }
-
+  
 .sidenav a:hover {
   color: crimson;
 }
-
+  
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -114,3 +81,4 @@ img{
   font-size: 36px;
   margin-left: 50px;
 }
+  
