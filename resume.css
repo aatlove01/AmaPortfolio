@@ -1,6 +1,11 @@
+html{
+    min-height: 200%;
+}
+
 body{
     font-family: 'Shadows Into Light Two', cursive;
     font-family: 'Staatliches', cursive;
+    overflow:scroll;
     
   }
 
@@ -41,7 +46,13 @@ body{
     display: flex;
     justify-content: center;
 }
-  
+
+/* pdf viwer */
+.pdf{
+    display: flex;
+    justify-content: center;
+}
+
   /* w3school side navigation */
   /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav */
   
