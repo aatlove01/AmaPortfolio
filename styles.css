@@ -1,3 +1,7 @@
+/* html{
+  min-height: 200%;
+} */
+
 body{
   font-family: 'Shadows Into Light Two', cursive;
   font-family: 'Staatliches', cursive;
@@ -8,7 +12,7 @@ body{
   cursor: pointer;
 }
 
-/* rectangle for header */
+/* rectangle for header divider */
 .rectangle{
   background-color: gainsboro;
   height: 2.5px;
@@ -33,6 +37,7 @@ body{
 }
 
 .rectangle1{
+  cursor: pointer;
   background-color: gainsboro;
   height: 350px;
   width: 300px;
@@ -40,6 +45,7 @@ body{
 }
 
 .rectangle2{
+  cursor: pointer;
   background-color: gainsboro;
   height: 350px;
   width: 300px;
@@ -47,6 +53,7 @@ body{
 }
 
 .rectangle3{
+  cursor: pointer;
   background-color: gainsboro;
   height: 350px;
   width: 300px;
