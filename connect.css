@@ -304,14 +304,14 @@ nav ul li a{
     
     /* backing for form */
     .rectangle1{
-        top: 45%;  
-        height: 70%;
+        top: 100%;  
+        height: 160%;
     }
     nav ul{width: 70%; }
 
     /* footer */
     #footer{
-        bottom: -60%;
+        bottom: -300%;
     }
 
 }
