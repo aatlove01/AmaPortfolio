@@ -270,13 +270,13 @@ nav ul li a{
     
     /* backing for form */
     .rectangle1{
-        top: 40%;  
-        height: 70%;
+        top: 50%;  
+        height: 90%;
     }
 
     /* footer */
     #footer{
-        bottom: -70%;
+        bottom: -130%;
     }
 }
 
