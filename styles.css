@@ -287,13 +287,19 @@ img:hover{
     
     .featured-projects{
         position: absolute;
-        top: 100em;
+        top: 70em;
         height: 105rem;}
     .grid-container{
         display: flex;
         justify-content: space-between;
         flex-direction: column;}
     nav ul{width: 30%; }
-    #footer{bottom: -320%;}
+    #footer{bottom: -430%;}
     nav ul li a{font-size: small;}
+    .featured{
+        font-size: 300%;}
+    .featured-jobtitle{
+        font-size: 150%;}
+    .featured-name{
+        font-size: 300%;}
 }
