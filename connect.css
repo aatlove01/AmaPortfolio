@@ -1,0 +1,370 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+/* site header */
+
+.header-name{
+    position: relative;
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'Staatliches', cursive;
+    font-size: 200%;
+    color: black;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 80%;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: medium;
+    color: crimson;
+    text-decoration: none;
+}
+
+/* contact title */
+.contact{
+    font-family:'Staatliches', cursive;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#contact{
+    font-family:'Roboto';
+    font-size: 20px;
+    /* margin-top: 50px;
+    margin-bottom: 80px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* contact info  */
+.rectangle1{
+    position: absolute;
+    background-color: #DC143C;
+    top: 50%;
+    left: 15%;
+    width: 70%;
+    height: 90%;
+    z-index: -1;
+    border-radius: 2%;
+    
+}
+
+.form-content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+}
+
+
+/* help from https://formcarry.com/blog/how-to-create-a-simple-html-contact-form/#option-2-html-form-processing-with-formcarry */
+
+.formcarry-container * {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  
+    /* colors */
+    --color-blue: #2552d0;
+    --color-light-red: #dc143cda;
+    --color-gray: #e5e7eb;
+    --color-dark-gray: #9da3ae;
+    --color-red: #DC143C;
+  }
+  
+  .formcarry-container {
+    /* container */
+    --c-width: 200%;
+    --c-max-width: 500px;
+  
+    width: var(--c-width);
+    max-width: var(--c-max-width);
+    display: block;
+    margin: 10vh auto 0 auto;
+  }
+  
+  .formcarry-form label {
+    display: block;
+    padding: 12px 0 2px 0;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .formcarry-form input,
+  .formcarry-form textarea {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border: 4px solid gainsboro;
+    outline: none;
+    border-radius: 8px;
+    color: var(--color-dark-gray);
+  }
+  
+  .formcarry-form input:focus,
+  .formcarry-form textarea:focus {
+    background-color: #fff;
+    color: var(--color-dark-gray);
+  }
+  
+  .formcarry-form input:focus:required:invalid {
+    border-color: var(--color-red);
+    background-color: #fff;
+  }
+  
+  .formcarry-form button {
+    display: block;
+    margin-top: 12px;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 8px;
+      border-color: transparent;
+    background-color: white;
+    color: crimson;
+    font-weight: 700;
+    font-size: 18px;
+  
+    transition: 300ms all;
+  }
+  
+  .formcarry-form button:hover {
+    background-color: var(--color-light-red);
+  }
+  
+  .formcarry-alert {
+    padding: 12px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+    display: none;
+  }
+  
+  .formcarry-alert.visible {
+    display: block;
+  }
+  
+  .formcarry-alert.success {
+    background: #69cf9d;
+  }
+  
+  .formcarry-alert.error {
+    background: #de524c;
+  } 
+
+/* footer */
+#footer{
+    background-color: crimson;
+    padding: 40px 0;
+    width: 100%;
+    height: 13.5rem;
+    position: absolute;
+    bottom: -130%;
+}
+
+#footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+#footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+#footer .social a:hover{
+    opacity: 0.9;
+}
+
+#footer ul{
+    color: #fff;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#footer ul li a:hover{
+    opacity:1;
+}
+
+#footer .copyright{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Extra Large Screens */
+@media (min-width: 1200px) and (max-width: 1599px) {
+    /* CSS styles for extra large screens */
+    
+    /* backing for form */
+    .rectangle1{
+        top: 40%;  
+        height: 70%;
+    }
+
+    /* footer */
+    #footer{
+        bottom: -70%;
+    }
+}
+
+/* Desktop Large Screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* CSS styles for desktop large screens */
+   
+    /* backing for form */
+    .rectangle1{
+        top: 40%;  
+        height: 70%;
+    }
+    nav ul{width: 70%; }
+
+    /* footer */
+    #footer{
+        bottom: -70%;
+    }
+
+}
+
+/* Small Screen Laptops */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles for small screen laptops */
+    
+    /* backing for form */
+    .rectangle1{
+        top: 45%;  
+        height: 70%;
+    }
+    nav ul{width: 70%; }
+
+    /* footer */
+    #footer{
+        bottom: -60%;
+    }
+
+}
+
+/* Tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* CSS styles for tablets */
+   
+    /* backing for form */
+    .rectangle1{
+        top: 50%;  
+        left: 5%;
+        width: 90%;
+        height: 70%;
+    }
+    nav ul{width: 70%; }
+
+    /* footer */
+    #footer{
+        bottom: -70%;
+    }
+    
+}
+
+/* Mobile Screens */
+@media (min-width: 320px) and (max-width: 575px) {
+    /* CSS styles for mobile screens */
+    
+   /* backing for form */
+   .rectangle1{
+    top: 60%;  
+    left: 5%;
+    width: 90%;
+    height: 70%;
+}
+nav ul{width: 70%; }
+
+/* footer */
+#footer{
+    bottom: -70%;
+}
+
+.formcarry-form input,
+  .formcarry-form textarea {
+    width:70%;
+  }
+
+.formcarry-form button {
+    width: 70%;
+}
+
+.formcarry-container{
+    padding-left: 5%;
+}
+
+}
