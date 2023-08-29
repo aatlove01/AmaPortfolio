@@ -229,6 +229,17 @@ img:hover{
 /* Extra Large Screens */
 @media (min-width: 1200px) {
     /* CSS styles for extra large screens */
+    .header-name{font-size: 225%;}
+    nav ul{width: 70%; }
+    .featured-projects{
+        position: absolute;
+        top: 55em;
+        height: 35rem;}
+    #footer{bottom: -230%;}
+    nav ul li a{font-size: large;}
+    .caption-1 img{height:350px;}
+    .caption-2 img{height:350px;}
+    .caption-3 img{height:350px;}
 }
 
 /* Desktop Large Screens */
@@ -254,9 +265,9 @@ img:hover{
     nav ul{width: 60%; }
     .featured-projects{
         position: absolute;
-        top: 55em;
+        top: 60em;
         height: 30rem;}
-    #footer{bottom: -50%;}
+    #footer{bottom: -230%;}
     nav ul li a{font-size: medium;}
     .caption-1 img{height:300px;}
     .caption-2 img{height:300px;}
@@ -270,36 +281,50 @@ img:hover{
     nav ul{width: 50%; }
     .featured-projects{
         position: absolute;
-        top: 70em;
+        top: 60em;
         height: 105rem;}
-        .grid-container{
-            display: flex;
-            justify-content: space-between;
-            flex-direction: column;}
-    #footer{bottom: -580%;}
+    .grid-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .featured{
+        font-size: 300%;
+        padding-right: 10%;}
+    #footer{position:absolute; bottom: -450%;}
     nav ul li a{font-size: medium;}
     
 }
 
 /* Mobile Screens */
-@media (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 575px) {
     /* CSS styles for mobile screens */
     
     .featured-projects{
         position: absolute;
-        top: 70em;
-        height: 105rem;}
+        top: 45em;
+        height: 80rem;}
     .grid-container{
         display: flex;
         justify-content: space-between;
         flex-direction: column;}
     nav ul{width: 30%; }
-    #footer{bottom: -430%;}
+    #footer{bottom: -315%;}
     nav ul li a{font-size: small;}
+
+    /* my name, job title, description */
     .featured{
-        font-size: 300%;}
-    .featured-jobtitle{
-        font-size: 150%;}
+        font-size: 170%;
+        padding-right: 10%;}
+       .featured-jobtitle{
+        font-size: 150%;
+        top: 320px;}
     .featured-name{
-        font-size: 300%;}
+        font-size: 200%;}
+
+    /* image for the featured projects  */
+    .caption-1 img{height:300px;}
+    .caption-2 img{height:300px;}
+    .caption-3 img{height:300px;}
+        
 }
