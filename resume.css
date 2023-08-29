@@ -143,10 +143,8 @@ iframe{
 @media (min-width: 992px) and (max-width: 1199px) {
     /* CSS styles for desktop large screens */
    
-    .about-summary{
-        margin-right: 20em;
-    }
 
+    
     /* footer */
     #footer{
         bottom: -220%;
@@ -158,12 +156,36 @@ iframe{
 @media (min-width: 768px) and (max-width: 991px) {
     /* CSS styles for small screen laptops */
     
+    nav ul{width: 30%; }
+
+    iframe{
+        width:70%;
+        height:100%;
+        top: 50%;
+    }
+
+    #footer{
+        bottom: -130%;
+    }
+    
+
 }
 
 /* Tablets */
 @media (min-width: 576px) and (max-width: 767px) {
     /* CSS styles for tablets */
    
+    nav ul{width: 30%; }
+
+    iframe{
+        width:70%;
+        height:70%;
+        top: 40%;
+    }
+
+    #footer{
+        bottom: -75%;
+    }
     
 }
 
@@ -171,6 +193,16 @@ iframe{
 @media (min-width: 320px) and (max-width: 575px) {
     /* CSS styles for mobile screens */
     
-   
-            
+    nav ul{width: 30%; }
+
+    iframe{
+        width:70%;
+        height:50%;
+        top: 50%;
+    }
+
+    #footer{
+        bottom: -60%;
+    }
+               
 }
