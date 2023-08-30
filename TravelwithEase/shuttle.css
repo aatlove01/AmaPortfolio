@@ -54,6 +54,112 @@ nav ul li a{
     text-decoration: none;
 }
 
+/* content introducing the project */
+.title-heading{
+    font-family: 'Staatliches', cursive;
+    font-size: 300%;
+    position: absolute;
+    display: flex;
+    left: 6%;
+    top: 20%;
+  }
+  
+  .title-subheading{
+    font-family: 'Roboto', cursive;
+    font-size: 150%;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    left: 6%;
+    top: 30%;
+    
+  }
+
+    
+  .what{
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    font-size: 140% ;
+    top: 41%;
+    left: 6%;
+  }
+  
+  .what_ans{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    font-size: 120% ;
+    top: 41.125%;
+    left: 20%;
+  
+  }
+  
+  .when{
+    font-family: 'Staatliches', cursive;
+    font-size: 140% ;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    font-size: 140%;
+    top: 46%;
+    left: 6%;
+    
+  }
+  
+  .when_ans{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    font-size: 120%;
+    top: 46.125%;
+    left: 20%;
+  }
+  
+  .role{
+    font-family: 'Staatliches', cursive;
+    font-size: 140% ;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    font-size: 140%;
+    top: 56%;
+    left: 6%;
+  }
+  
+  .role_ans{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    font-size: 120%;
+    top: 56.125%;
+    left: 20%;
+  }
+  
+  .tools{
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    font-size: 140%;
+    top: 51%;
+    left: 6%;
+    
+  }
+  
+  .tools_ans{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    font-size: 120%;
+    top: 51.125%;
+    left: 20%;
+  }
 
 
 /* footer */
