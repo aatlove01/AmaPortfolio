@@ -161,6 +161,24 @@ nav ul li a{
     left: 20%;
   }
 
+/*mockup video  */
+.walkthrough{
+    position:absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    top: 170%;
+    left: 45%;
+    text-decoration: underline;
+}
+
+.final-mockup{
+    position: absolute;
+    display: flex;
+    top: 180%;
+    width: 100%;
+    height: 100%;
+}
 
 /* footer */
 #footer{
@@ -169,7 +187,7 @@ nav ul li a{
     width: 100%;
     height: 13.5rem;
     position: absolute;
-    bottom: -150%;
+    bottom: -250%;
 }
 
 #footer .social{
