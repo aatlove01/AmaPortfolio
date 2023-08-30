@@ -59,6 +59,9 @@ nav ul li a{
 .about-image {
     position: absolute;
     display: flex;
+    width: 40em;
+    top: -15%;
+    right: 5%
   }
   
   img {
