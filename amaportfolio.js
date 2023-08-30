@@ -1,22 +1,22 @@
 console.log("JavaScript is here");
 
-// const SideNav_open = document.getElementById("mySidenav");
-// const SideNav_close = document.getElementById("mySidenav");
+const SideNav_open = document.getElementById("mySidenav");
+const SideNav_close = document.getElementById("mySidenav");
 
-// console.log('listening');
+console.log('listening');
 
-// SideNav_open.addEventListener('click',openNav);
-// SideNav_close.addEventListener('click',closeNav);
+SideNav_open.addEventListener('click',openNav);
+SideNav_close.addEventListener('click',closeNav);
 
-// console.log("Operating Navigation Bar")
+console.log("Operating Navigation Bar")
 
-// function openNav() {
-//     SideNav_open.style.width = "250px";
-//   }
+function openNav() {
+    SideNav_open.style.width = "250px";
+  }
   
-// function closeNav() {
-//     SideNav_close.style.width = "0";
-//   }
+function closeNav() {
+    SideNav_close.style.width = "0";
+  }
 
   document.addEventListener('mousemove', function(event) {
     var lavaEffect = document.getElementById('lava-effect');

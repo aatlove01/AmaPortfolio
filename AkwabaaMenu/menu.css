@@ -1,0 +1,344 @@
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+/* site header */
+
+.header-name{
+    position: relative;
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'Staatliches', cursive;
+    font-size: 200%;
+    color: black;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 80%;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: medium;
+    color: #dc143c;
+    text-decoration: none;
+}
+
+/* positioning of the flip book with the print and digital menu */
+.fp-iframe{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 30%;
+    left: 25%;
+}
+
+.digitalmenu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 120%;
+    left: 25%;
+}
+
+/* content introducing the project */
+.title-heading{
+    font-family: 'Staatliches', cursive;
+    font-size: 300%;
+    position: absolute;
+    display: flex;
+    left: 6%;
+    top: 20%;
+  }
+  
+  .title-subheading{
+    font-family: 'Roboto', cursive;
+    font-size: 150%;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    left: 6%;
+    top: 30%;
+    
+  }
+
+    
+  .what{
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    font-size: 140% ;
+    top: 41%;
+    left: 6%;
+  }
+  
+  .what_ans{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    font-size: 120% ;
+    top: 41.125%;
+    left: 20%;
+  
+  }
+  
+  .when{
+    font-family: 'Staatliches', cursive;
+    font-size: 140% ;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    font-size: 140%;
+    top: 46%;
+    left: 6%;
+    
+  }
+  
+  .when_ans{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    font-size: 120%;
+    top: 46.125%;
+    left: 20%;
+  }
+  
+  .role{
+    font-family: 'Staatliches', cursive;
+    font-size: 140% ;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    font-size: 140%;
+    top: 56%;
+    left: 6%;
+  }
+  
+  .role_ans{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    font-size: 120%;
+    top: 56.125%;
+    left: 20%;
+  }
+  
+  .tools{
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    position: absolute;
+    display: flex;
+    font-size: 140%;
+    top: 51%;
+    left: 6%;
+    
+  }
+  
+  .tools_ans{
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    position: absolute;
+    display: flex;
+    font-size: 120%;
+    top: 51.125%;
+    left: 20%;
+  }
+  
+
+/* wireframe print version flipbook */
+.publuuflip_menu1{
+    position: absolute;
+    top: 80%;
+}
+
+
+.mobilemenu_1{
+    position: absolute;
+    top: 180%;
+}
+
+.label-wireframe{
+    position:absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    top: 70%;
+    left: 48%;
+    text-decoration: underline;
+}
+
+.label-treatment{
+    position:absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    top: 290%;
+    left: 44%;
+    text-decoration: underline;
+}
+
+.graphic-treatment{
+    position: absolute;
+    top: 300%;
+    left: 30%;
+    width: 100%;
+    height: 120%;
+}
+
+.final-looks{
+    position: absolute;
+    top: 430%;
+    width: 100%;
+    height: 100%;
+}
+
+.final-look-print{
+    position: absolute;
+    top: 550%;
+    width: 100%;
+    height: 100%;
+}
+
+.label-final{
+    position:absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+    font-weight: 400;
+    top: 420%;
+    left: 47%;
+    text-decoration: underline;
+}
+
+/* footer */
+#footer{
+    background-color: #dc143c;
+    padding: 40px 0;
+    width: 100%;
+    height: 13.5rem;
+    position: absolute;
+    bottom: -630%;
+}
+
+#footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
+
+#footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+#footer .social a:hover{
+    opacity: 0.9;
+}
+
+#footer ul{
+    color: #fff;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+#footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+#footer ul li a:hover{
+    opacity:1;
+}
+
+#footer .copyright{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* Extra Large Screens */
+@media (min-width: 1200px) {
+    /* CSS styles for extra large screens */
+    
+}
+
+/* Desktop Large Screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* CSS styles for desktop large screens */
+    
+}
+
+/* Small Screen Laptops */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* CSS styles for small screen laptops */
+   
+}
+
+/* Tablets */
+@media (min-width: 576px) and (max-width: 767px) {
+    /* CSS styles for tablets */
+   
+    
+}
+
+/* Mobile Screens */
+@media (min-width: 320px) and (max-width: 575px) {
+    /* CSS styles for mobile screens */
+    
+        
+}
