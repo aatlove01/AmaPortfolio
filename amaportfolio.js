@@ -1,22 +1,26 @@
-console.log("JavaScript is here");
+// Side Navigation Side Bar
 
-const SideNav_open = document.getElementById("mySidenav");
-const SideNav_close = document.getElementById("mySidenav");
+// console.log("JavaScript is here");
 
-console.log('listening');
+// const SideNav_open = document.getElementById("mySidenav");
+// const SideNav_close = document.getElementById("mySidenav");
 
-SideNav_open.addEventListener('click',openNav);
-SideNav_close.addEventListener('click',closeNav);
+// console.log('listening');
 
-console.log("Operating Navigation Bar")
+// SideNav_open.addEventListener('click',openNav);
+// SideNav_close.addEventListener('click',closeNav);
 
-function openNav() {
-    SideNav_open.style.width = "250px";
-  }
+// console.log("Operating Navigation Bar")
+
+// function openNav() {
+//     SideNav_open.style.width = "250px";
+//   }
   
-function closeNav() {
-    SideNav_close.style.width = "0";
-  }
+// function closeNav() {
+//     SideNav_close.style.width = "0";
+//   }
+
+  // lava mouse effect on home page
 
   document.addEventListener('mousemove', function(event) {
     var lavaEffect = document.getElementById('lava-effect');
@@ -33,6 +37,8 @@ function closeNav() {
       lavaEffect.removeChild(lavaElement);
     });
   });
+
+  // all the projects listed on work page
   
   var categories = document.querySelectorAll('.category');
   var projects = document.querySelectorAll('.project');
@@ -83,53 +89,25 @@ categoryElements.forEach((categoryElement) => {
 });
 
 
-// from w3school for the portfolio's work grid 
-// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_portfolio_gallery_filter
+// from codepen for the portfolio's work grid 
+// https://codepen.io/jkmquitasol/pen/JxrKxX?html-preprocessor=none
 
-filterSelection("all") // Execute the function and show all columns
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-// Show filtered elements
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
-
-// Hide elements that are not selected
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+$(function () {
+	var filterList = {
+		init: function () {
+			// MixItUp plugin
+			// http://mixitup.io
+			$('.portfolio-grid').mixItUp({
+				selectors: {
+  			  target: '.portfolio',
+  			  filter: '.filter'	
+  		  },
+  		  load: {
+    		  filter: 'all' // show app tab on first load
+    		}     
+			});								
+		}
+	};
+	// Run the show!
+	filterList.init();
+});	
