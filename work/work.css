@@ -11,7 +11,6 @@ html{
 
 body{
     min-height: 100vh;
-    padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Staatliches', cursive;
@@ -177,11 +176,11 @@ h2 {
     }
   }
   .portfolio-tab ul li:hover {
-    background: crimson;
+    background: #e30b5d;
     color: #fff
   }
   .portfolio-tab ul .active {
-    background: crimson;
+    background: #e30b5d;
     color: #fff
   }
   .clearfix:after {
@@ -230,7 +229,7 @@ h2 {
     transform: scale(1.2)
   }
   .first .portfolio-bg{
-    background-image: url('../assets/Digital\ Menu.png');
+    background-image: url('https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=accounts-applications-apps-267350.jpg&fm=jpg');
     
   }
   .second .portfolio-bg{
@@ -280,6 +279,7 @@ h2 {
     margin-top: 20px;
     font-weight: 500
   }
+
 
 /* footer - end of the page */
 #footer{
