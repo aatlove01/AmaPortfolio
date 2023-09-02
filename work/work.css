@@ -228,15 +228,20 @@ h2 {
   .portfolio:hover .portfolio-bg{
     transform: scale(1.2)
   }
+
+  /* NYU Shuttle Redesign Image */
   .first .portfolio-bg{
-    background-image: url('https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?cs=srgb&dl=accounts-applications-apps-267350.jpg&fm=jpg');
-    
+    background-image: url('../assets/NYU\ Shuttle\ Redesign\ Opening\ Img.jpg');  
   }
+
+  /* Akwabaa Restaurant Menus */
   .second .portfolio-bg{
-    background-image: url('https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?cs=srgb&dl=art-art-materials-artwork-1053687.jpg&fm=jpg');
+    background-image: url('../assets/Digital\ Menu.png');
   }
+
+  /* Int.Pal Company Lgo */
   .third .portfolio-bg{
-    background-image: url('https://images.pexels.com/photos/6224/hands-people-woman-working.jpg?cs=srgb&dl=brainstorming-campaign-collaborate-6224.jpg&fm=jpg');
+    background-image: url('../assets/international\ pal.png');
     
   }
   .portfolio .label {
