@@ -164,7 +164,7 @@ nav ul li a{
 
 /* case study slideshow */
 
-iframe{
+.casestudy-present{
     position: absolute;
     top: 90%;
     left: 3%;
