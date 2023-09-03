@@ -244,6 +244,19 @@ h2 {
     background-image: url('../assets/international\ pal.png');
     
   }
+
+  /* Voices Mag */
+  .fourth .portfolio-bg{
+    background-image: url('../assets/VOICES\ Magazine\ Hidden\ Gems.png');
+    
+  }
+
+  /* First Year Guide */
+  .fifth .portfolio-bg{
+    background-image: url('../assets/fyg\ 2023.png');
+    
+  }
+
   .portfolio .label {
     position: absolute;
     width: 100%;
