@@ -161,6 +161,12 @@ nav ul li a{
     left: 20%;
   }
 
+/* voices magazine iframe */
+.voices{
+    position: absolute;
+    top: 80%;
+    left: 2.5%;
+}
 
 /* footer */
 #footer{
@@ -169,7 +175,7 @@ nav ul li a{
     width: 100%;
     height: 13.5rem;
     position: absolute;
-    bottom: -150%;
+    bottom: -170%;
 }
 
 #footer .social{
