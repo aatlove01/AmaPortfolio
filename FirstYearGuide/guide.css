@@ -162,6 +162,13 @@ nav ul li a{
   }
 
 
+/* first year guide iframe */
+.guide{
+    position: absolute;
+    top: 80%;
+    left: 2.5%;
+}
+
 /* footer */
 #footer{
     background-color: crimson;
