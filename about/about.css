@@ -18,11 +18,36 @@ body{
 .header-name{
     position: relative;
     text-align: left;
-    padding-left: 40px;
+    padding-left: 15px;
     font-family: 'Staatliches', cursive;
     font-size: 200%;
     color: black;
     cursor: pointer;
+}
+
+.header-section{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 2%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.menu-icon{
+    cursor: pointer;
+    width: 30px; 
+}
+
+#menuList{
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 nav{
@@ -31,17 +56,21 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 5px 0;
+
+    flex: 1;
+    text-align: right;
 }
 
 nav ul{
     list-style-type: none;
     width: 80%;
     text-align: right;
-    padding-right: 40px;
-    padding-top: 25px;
+    /* padding-right: 10px; */
+    /* padding-top: 25px; */
 }
 
 nav ul li{
+    list-style: none;
     display: inline-block;
     margin: 10px 20px;
 }
@@ -49,11 +78,10 @@ nav ul li{
 nav ul li a{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: medium;
+    font-size: 15px;
     color: crimson;
     text-decoration: none;
 }
-
 /* about me content */
 
 .about-image {

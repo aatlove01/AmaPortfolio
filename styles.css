@@ -18,11 +18,36 @@ body{
 .header-name{
     position: relative;
     text-align: left;
-    padding-left: 40px;
+    padding-left: 15px;
     font-family: 'Staatliches', cursive;
     font-size: 200%;
     color: black;
     cursor: pointer;
+}
+
+.header-section{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 2%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.menu-icon{
+    cursor: pointer;
+    width: 30px; 
+}
+
+#menuList{
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 nav{
@@ -31,17 +56,21 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 5px 0;
+
+    flex: 1;
+    text-align: right;
 }
 
 nav ul{
     list-style-type: none;
     width: 80%;
     text-align: right;
-    padding-right: 40px;
-    padding-top: 25px;
+    /* padding-right: 10px; */
+    /* padding-top: 25px; */
 }
 
 nav ul li{
+    list-style: none;
     display: inline-block;
     margin: 10px 20px;
 }
@@ -49,7 +78,7 @@ nav ul li{
 nav ul li a{
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: medium;
+    font-size: 15px;
     color: crimson;
     text-decoration: none;
 }
@@ -328,7 +357,7 @@ img:hover{
 }
 
 /* Mobile Screens */
-@media (min-width: 320px) and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
     /* CSS styles for mobile screens */
     
     .featured-projects{
@@ -357,5 +386,35 @@ img:hover{
     .caption-1 img{height:300px;}
     .caption-2 img{height:300px;}
     .caption-3 img{height:300px;}
+
+    #footer{
+        background-color: crimson;
+        padding: 40px 0;
+        width: 100%;
+        height: 13.5rem;
+        position: absolute;
+        bottom: -200%;
+    }
+
+    /* hamburger menu  */
+    nav ul{
+        width: 100%;
+        background: crimson;
+        position: absolute;
+        top: 80%;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li{
+        display: block;
+        padding-top: 5px ;
+    }
+
+    nav ul li a{
+        font-weight: 500;
+        font-size: large;
+        color: #fff;
+    }
         
 }
