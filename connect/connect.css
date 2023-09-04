@@ -368,9 +368,6 @@ nav ul li a{
 /* Mobile Screens */
 @media (min-width: 320px) and (max-width: 575px) {
     /* CSS styles for mobile screens */
-    
-
-nav ul{width: 70%; }
 
 /* footer */
 #footer{
@@ -390,38 +387,25 @@ nav ul{width: 70%; }
     padding-left: 5%;
 }
 
-/* Mobile Screens */
-@media (min-width: 325px) and (max-width: 575px) {
-    /* CSS styles for mobile screens */
-            
-        #footer{
-            background-color: crimson;
-            padding: 40px 0;
-            width: 100%;
-            height: 13.5rem;
-            position: absolute;
-            bottom: -200%;
-        }
+/* hamburger menu  */
+nav ul{
+    width: 100%;
+    background: crimson;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    z-index: 2;
+}
     
-        /* hamburger menu  */
-        nav ul{
-            width: 100%;
-            background: crimson;
-            position: absolute;
-            top: 80%;
-            right: 0;
-            z-index: 2;
-        }
+nav ul li{
+    display: block;
+    padding-top: 5px ;
+}
     
-        nav ul li{
-            display: block;
-            padding-top: 5px ;
-        }
-    
-        nav ul li a{
-            font-weight: 500;
-            font-size: large;
-            color: #fff;
-        }
+nav ul li a{
+    font-weight: 500;
+    font-size: large;
+    color: #fff;
+}
 
 }
