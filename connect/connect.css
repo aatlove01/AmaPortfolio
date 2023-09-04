@@ -391,7 +391,7 @@ nav ul{width: 70%; }
 }
 
 /* Mobile Screens */
-@media only screen and (max-width: 575px) {
+@media (min-width: 325px) and (max-width: 575px) {
     /* CSS styles for mobile screens */
             
         #footer{
