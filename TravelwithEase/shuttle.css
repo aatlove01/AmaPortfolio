@@ -197,6 +197,8 @@ nav ul li a{
     position: absolute;
     top: 90%;
     left: 3%;
+    height: 100%;
+    width: 100%;
 }
 
 /*case study title  */
@@ -206,7 +208,7 @@ nav ul li a{
     font-size: larger;
     font-weight: 400;
     top: 80%;
-    left: 45%;
+    left: 40%;
     text-decoration: underline;
 }
 
@@ -216,7 +218,7 @@ nav ul li a{
     font-family: 'Montserrat', sans-serif;
     font-size: larger;
     font-weight: 400;
-    top: 250%;
+    top: 200%;
     left: 45%;
     text-decoration: underline;
 }
@@ -224,9 +226,9 @@ nav ul li a{
 .final-mockup{
     position: absolute;
     display: flex;
-    top: 260%;
-    width: 100%;
+    top: 210%;
     height: 100%;
+    width: 100%;
 }
 
 /* footer */
