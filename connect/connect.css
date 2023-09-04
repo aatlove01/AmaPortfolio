@@ -128,7 +128,7 @@ nav ul li a{
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
-    color: white;
+    color: black;
   }
   
   .formcarry-form input,
@@ -163,8 +163,8 @@ nav ul li a{
     padding: 12px 20px;
     border-radius: 8px;
       border-color: transparent;
-    background-color: white;
-    color: crimson;
+    background-color: crimson;
+    color: white;
     font-weight: 700;
     font-size: 18px;
   
