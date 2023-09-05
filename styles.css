@@ -34,7 +34,7 @@ body{
     overflow: hidden;
 }
 
-.menu-icon{
+/* .menu-icon{
     cursor: pointer;
     width: 30px; 
     visibility: v;
@@ -43,7 +43,7 @@ body{
 #menuList{
     overflow: hidden;
     transition: 0.5s;
-}
+} */
 
 .navbar{
     width: 100%;
@@ -431,6 +431,16 @@ img:hover{
     .caption-3 img{height:300px;}
 
     /* hamburger menu  */
+    .menu-icon{
+        cursor: pointer;
+        width: 30px; 
+    }
+    
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
     nav ul{
         width: 100%;
         background: crimson;

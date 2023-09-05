@@ -30,22 +30,12 @@ body{
 
 .header-section{
   width: 100%;
-  min-height: 100vh;
   padding-left: 2%;
   padding-right: 5%;
   box-sizing: border-box;
   overflow: hidden;
 }
 
-.menu-icon{
-  cursor: pointer;
-  width: 30px; 
-}
-
-#menuList{
-  overflow: hidden;
-  transition: 0.5s;
-}
 
 .navbar{
   width: 100%;
@@ -171,7 +161,7 @@ h2 {
     background: #f28500;
   }
   .portfolio-section {
-    padding-top: 30px;
+    padding-top: 5%;
     transition: 1.3s;
     box-sizing: border-box;
     height: auto;
@@ -434,6 +424,11 @@ h2 {
 }
 
 /* hamburger menu  */
+.menu-icon{
+  cursor: pointer;
+  width: 25px; 
+}
+
 nav ul{
     width: 100%;
     background: crimson;

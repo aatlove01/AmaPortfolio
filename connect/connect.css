@@ -27,21 +27,10 @@ body{
 
 .header-section{
     width: 100%;
-    min-height: 100vh;
     padding-left: 2%;
     padding-right: 5%;
     box-sizing: border-box;
     overflow: hidden;
-}
-
-.menu-icon{
-    cursor: pointer;
-    width: 30px; 
-}
-
-#menuList{
-    overflow: hidden;
-    transition: 0.5s;
 }
 
 .navbar{
@@ -388,6 +377,16 @@ nav ul li a{
 }
 
 /* hamburger menu  */
+#menuList{
+    overflow: hidden;
+    transition: 0.5s;
+  }  
+
+.menu-icon{
+    cursor: pointer;
+    width: 30px; 
+}
+
 nav ul{
     width: 100%;
     background: crimson;
