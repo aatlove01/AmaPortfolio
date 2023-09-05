@@ -39,4 +39,22 @@
   });
 
 
- 
+  // hamburger menu for mobile and smaller screens
+            var menuList = document.getElementById("menuList");
+    
+            menuList.style.maxHeight = "0px";
+    
+            function togglemenu(){
+    
+            if (menuList.style.maxHeight == '0px')
+            {
+                console.log ("Menu Opened");
+                menuList.style.maxHeight="200px"
+            }
+            else
+            {
+                console.log ("Menu Closed");
+                menuList.style.maxHeight="0px"
+            }
+            }
+    

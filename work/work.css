@@ -36,6 +36,11 @@ body{
   overflow: hidden;
 }
 
+.menu-icon{
+  cursor: pointer;
+  width: 30px; 
+  display: none;
+}
 
 .navbar{
   width: 100%;
@@ -426,7 +431,12 @@ h2 {
 /* hamburger menu  */
 .menu-icon{
   cursor: pointer;
-  width: 25px; 
+  width: 30px; 
+}
+
+#menuList{
+  overflow: hidden;
+  transition: 0.5s;
 }
 
 nav ul{

@@ -38,12 +38,9 @@ body{
 .menu-icon{
     cursor: pointer;
     width: 30px; 
+    display: none;
 }
 
-#menuList{
-    overflow: hidden;
-    transition: 0.5s;
-}
 
 .navbar{
     width: 100%;
@@ -371,6 +368,16 @@ nav ul li a{
         /* CSS styles for mobile screens */
                
             /* hamburger menu  */
+            .menu-icon{
+                cursor: pointer;
+                width: 30px; 
+            }
+            
+            #menuList{
+                overflow: hidden;
+                transition: 0.5s;
+            }
+
             nav ul{
                 width: 100%;
                 background: crimson;

@@ -37,11 +37,7 @@ body{
 .menu-icon{
     cursor: pointer;
     width: 30px; 
-}
-
-#menuList{
-    overflow: hidden;
-    transition: 0.5s;
+    display: none;
 }
 
 .navbar{
@@ -83,7 +79,7 @@ nav ul li a{
     text-decoration: none;
 }
 
-/* resume pdft */
+/* resume pdf */
 
 iframe{
     position: absolute;
@@ -185,13 +181,42 @@ iframe{
 @media (min-width: 768px) and (max-width: 991px) {
     /* CSS styles for small screen laptops */
     
-    nav ul{width: 30%; }
+    
+  /* hamburger menu  */
+  .menu-icon{
+    cursor: pointer;
+    width: 30px; 
+}
 
-    iframe{
-        width:70%;
-        height:100%;
-        top: 50%;
-    }
+#menuList{
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+  nav ul{
+      width: 100%;
+      background: crimson;
+      position: absolute;
+      top: 80%;
+      right: 0;
+      z-index: 2;
+  }
+
+  nav ul li{
+      display: block;
+      padding-top: 5px ;
+  }
+
+  nav ul li a{
+      font-weight: 500;
+      font-size: large;
+      color: #fff;
+  }
+        
+  .pdf{
+    height: auto;
+    width: auto;
+  }
 
     #footer{
         bottom: -130%;
@@ -204,13 +229,42 @@ iframe{
 @media (min-width: 576px) and (max-width: 767px) {
     /* CSS styles for tablets */
    
-    nav ul{width: 30%; }
+    
+  /* hamburger menu  */
+  .menu-icon{
+    cursor: pointer;
+    width: 30px; 
+}
 
-    iframe{
-        width:70%;
-        height:70%;
-        top: 40%;
-    }
+#menuList{
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+  nav ul{
+      width: 80%;
+      background: crimson;
+      position: absolute;
+      top: 80%;
+      right: 0;
+      z-index: 2;
+  }
+
+  nav ul li{
+      display: block;
+      padding-top: 5px ;
+  }
+
+  nav ul li a{
+      font-weight: 500;
+      font-size: large;
+      color: #fff;
+  }
+        
+  .pdf{
+    height: auto;
+    width: auto;
+  }
 
     #footer{
         bottom: -75%;
@@ -232,6 +286,16 @@ iframe{
   }
 
   /* hamburger menu  */
+  .menu-icon{
+    cursor: pointer;
+    width: 30px; 
+}
+
+#menuList{
+    overflow: hidden;
+    transition: 0.5s;
+}
+
   nav ul{
       width: 100%;
       background: crimson;

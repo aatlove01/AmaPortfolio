@@ -34,16 +34,12 @@ body{
     overflow: hidden;
 }
 
-/* .menu-icon{
+.menu-icon{
     cursor: pointer;
     width: 30px; 
-    visibility: v;
+    display: none;
 }
 
-#menuList{
-    overflow: hidden;
-    transition: 0.5s;
-} */
 
 .navbar{
     width: 100%;
