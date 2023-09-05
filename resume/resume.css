@@ -219,7 +219,7 @@ iframe{
 }
 
 /* Mobile Screens */
-@media only screen and (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 575px) {
     /* CSS styles for mobile screens */
     
     #footer{

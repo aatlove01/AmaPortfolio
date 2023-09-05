@@ -37,6 +37,7 @@ body{
 .menu-icon{
     cursor: pointer;
     width: 30px; 
+    visibility: v;
 }
 
 #menuList{
@@ -289,14 +290,28 @@ img:hover{
 /* Extra Large Screens */
 @media (min-width: 1200px) {
     /* CSS styles for extra large screens */
-    .header-name{font-size: 225%;}
-    nav ul{width: 70%; }
+
+    .header-name{
+        font-size: 225%;
+    }
+
+    nav ul{
+        width: 70%;
+     }
+
     .featured-projects{
         position: absolute;
         top: 55em;
         height: 35rem;}
-    #footer{bottom: -180%;}
-    nav ul li a{font-size: large;}
+
+    #footer{
+        bottom: -180%;
+    }
+
+    nav ul li a{
+        font-size: large;
+    }
+
     .caption-1 img{height:350px;}
     .caption-2 img{height:350px;}
     .caption-3 img{height:350px;}
