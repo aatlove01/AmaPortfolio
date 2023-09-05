@@ -429,6 +429,7 @@ nav ul li a{
     .menu-icon{
       cursor: pointer;
       width: 30px; 
+      display: block;
   }
   
   #menuList{
