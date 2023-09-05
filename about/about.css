@@ -484,37 +484,41 @@ nav ul li a{
     line-height: 200%;
   }
 
-        /* hamburger menu  */
-        .menu-icon{
-            display: block;
-        }
-        
-        #menuList{
-            overflow: hidden;
-            transition: 0.5s;
-        }
+/* hamburger menu  */
 
-        nav ul{
-            width: 100%;
-            background: crimson;
-            position: absolute;
-            top: 80%;
-            right: 0;
-            z-index: 2;
-        }
-        
-        nav ul li{
-            display: block;
-            padding-top: 5px ;
-        }
-        
-        nav ul li a{
-            font-weight: 500;
-            font-size: large;
-            color: #fff;
-        }
+.menu-icon{
+  cursor: pointer;
+  width: 30px; 
+  display: block;
+}
+
+#menuList{
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+nav ul{
+    width: 100%;
+    background: crimson;
+    position: absolute;
+    top: 80%;
+    right: 0;
+    z-index: 2;
+}
+
+nav ul li{
+    display: block;
+    padding-top: 5px ;
+}
+
+nav ul li a{
+    font-weight: 500;
+    font-size: large;
+    color: #fff;
+}
+
         #footer{
-            bottom: -280%;
+            bottom: -380%;
         }
 
 }

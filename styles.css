@@ -378,6 +378,18 @@ img:hover{
         bottom: -450%;
     }
 
+    /* navigation */
+    
+    /* hamburger menu  */
+    .menu-icon{
+        display: block;
+    }
+    
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
     nav ul li a{
         font-size: medium;
     }
@@ -430,7 +442,6 @@ img:hover{
     /* hamburger menu  */
     .menu-icon{
         display: block;
-     
     }
     
     #menuList{
