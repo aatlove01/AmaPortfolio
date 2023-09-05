@@ -432,6 +432,7 @@ h2 {
 .menu-icon{
   cursor: pointer;
   width: 30px; 
+  display: block;
 }
 
 #menuList{
