@@ -237,6 +237,16 @@ nav ul li a{
 @media (min-width: 320px) and (max-width: 575px) {
 /* CSS styles for mobile screens */
            
+/* image */
+.about-image{
+    top: 15%;
+    right: 5%;
+    width: auto;
+    height: auto;
+}
+
+/* about summary  */
+
         /* hamburger menu  */
         .menu-icon{
             cursor: pointer;
