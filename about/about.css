@@ -435,8 +435,8 @@ nav ul li a{
 .about-image{
     top: 15%;
     right: 5%;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
 }
 
 /* about me summary  */
@@ -518,7 +518,7 @@ nav ul li a{
 }
 
         #footer{
-            bottom: -380%;
+            bottom: -450%;
         }
 
 }

@@ -49,7 +49,7 @@
             if (menuList.style.maxHeight == '0px')
             {
                 console.log ("Menu Opened");
-                menuList.style.maxHeight="200px"
+                menuList.style.maxHeight="400px"
             }
             else
             {
