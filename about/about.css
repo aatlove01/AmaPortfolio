@@ -463,6 +463,7 @@ nav ul li a{
     left: 35px;
     top: 680px;
   }
+  
   /* i'm ama achampong */
   .about-heading {
     font-size: 60px;
@@ -517,9 +518,9 @@ nav ul li a{
     color: #fff;
 }
 
-        #footer{
-            bottom: -450%;
-        }
+#footer{
+  bottom: -450%;
+}
 
 }
     

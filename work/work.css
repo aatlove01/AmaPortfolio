@@ -30,6 +30,7 @@ body{
 
 .header-section{
   width: 100%;
+  min-height: 5vh;
   padding-left: 2%;
   padding-right: 5%;
   box-sizing: border-box;
