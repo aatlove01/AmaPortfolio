@@ -200,7 +200,7 @@ nav ul li a{
     
     .about-image{
         top: -15%;
-        right: 5%;
+        right: 2%;
     }
     
 }
@@ -209,9 +209,58 @@ nav ul li a{
 @media (min-width: 992px) and (max-width: 1199px) {
     /* CSS styles for desktop large screens */
    
-    .about-summary{
-        margin-right: 20em;
+      /* navigation bar  */
+      .header-name{
+        font-size: 185%;
     }
+
+    nav ul{
+        width: 80%;
+    }
+
+    /* image  */
+    .about-image {
+        position: absolute;
+        display: flex;
+        top: -55%;
+        right: 20%;
+      }
+      
+      img {
+        position: relative;
+        margin-top: 70%;
+        margin-left: 125%;
+       
+      }
+
+    /* about me summary */
+    /* hey there */
+  .about-label {
+    font-size: 40px;
+    position: absolute;
+    left: 35px;
+    top: 980px;
+  }
+  /* i'm ama achampong */
+  .about-heading {
+    font-size: 60px;
+    position: absolute;
+    display: block;
+    justify-self: center;
+    left: 0.5em;
+    top: 17.5em;
+  }
+  
+  .about-summary {
+    position: absolute;
+    font-weight: 300;
+    font-size: 28px;
+    display: block;
+    left: 1.3em;
+    top: 42em;
+    margin-right: 2em;
+    line-height: 200%;
+  }
 
     /* footer */
     #footer{
@@ -223,19 +272,164 @@ nav ul li a{
 /* Small Screen Laptops */
 @media (min-width: 768px) and (max-width: 991px) {
     /* CSS styles for small screen laptops */
-    
+
+    /* navigation bar  */
+    .header-name{
+        font-size: 160%;
+    }
+
+    nav ul{
+        width: 80%;
+    }
+    /* image  */
+    .about-image {
+        position: absolute;
+        display: flex;
+        top: -45%;
+        right: 12.5%;
+      }
+      
+      img {
+        position: relative;
+        margin-top: 70%;
+        margin-left: 125%;
+       
+      }
+
+    /* about me summary */
+    /* hey there */
+  .about-label {
+    font-size: 40px;
+    position: absolute;
+    left: 35px;
+    top: 980px;
+  }
+  /* i'm ama achampong */
+  .about-heading {
+    font-size: 60px;
+    position: absolute;
+    display: block;
+    justify-self: center;
+    left: 0.5em;
+    top: 17.5em;
+  }
+  
+  .about-summary {
+    position: absolute;
+    font-weight: 300;
+    font-size: 28px;
+    display: block;
+    left: 1.3em;
+    top: 42em;
+    margin-right: 2em;
+    line-height: 200%;
+  }
+
+    /* footer */
+    #footer{
+        bottom: -280%;
+    }
+
 }
 
 /* Tablets */
 @media (min-width: 576px) and (max-width: 767px) {
     /* CSS styles for tablets */
    
+    /* image */
+.about-image{
+    top: 15%;
+    right: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+/* about me summary  */
+
+.about-image {
+    position: absolute;
+    display: flex;
+    width: auto;
+    top: -35%;
+    right: 16.5%;
+  }
+  
+  img {
+    position: relative;
+    margin-top: 70%;
+    margin-left: 125%;
+    width: auto;
+  }
+  
+  /* hey there */
+  .about-label {
+    font-size: 40px;
+    position: absolute;
+    left: 35px;
+    top: 680px;
+  }
+  /* i'm ama achampong */
+  .about-heading {
+    font-size: 60px;
+    position: absolute;
+    display: block;
+    justify-self: center;
+    left: 0.5em;
+    top: 12.5em;
+  }
+  
+  .about-summary {
+    position: absolute;
+    font-weight: 300;
+    font-size: 25px;
+    display: block;
+    left: 1.5em;
+    top: 35em;
+    margin-right: 2em;
+    line-height: 200%;
+  }
+
+        /* hamburger menu  */
+        .menu-icon{
+            display: block;
+            
+        }
+        
+        #menuList{
+            overflow: hidden;
+            transition: 0.5s;
+        }
+
+        nav ul{
+            width: 100%;
+            background: crimson;
+            position: absolute;
+            top: 80%;
+            right: 0;
+            z-index: 2;
+        }
+        
+        nav ul li{
+            display: block;
+            padding-top: 5px ;
+        }
+        
+        nav ul li a{
+            font-weight: 500;
+            font-size: large;
+            color: #fff;
+        }
+        #footer{
+            bottom: -280%;
+        }
+
     
 }
 
 /* Mobile Screens */
 @media (min-width: 320px) and (max-width: 575px) {
 /* CSS styles for mobile screens */
+
            
 /* image */
 .about-image{
@@ -292,8 +486,6 @@ nav ul li a{
 
         /* hamburger menu  */
         .menu-icon{
-            cursor: pointer;
-            width: 30px; 
             display: block;
         }
         

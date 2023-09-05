@@ -38,7 +38,7 @@ body{
     cursor: pointer;
     width: 30px; 
     display: none;
-}
+   }
 
 
 .navbar{
@@ -387,6 +387,7 @@ img:hover{
 /* Mobile Screens */
 @media (min-width: 320px) and (max-width: 575px) {
     /* CSS styles for mobile screens */
+
     
     .featured-projects{
         position: absolute;
@@ -407,18 +408,18 @@ img:hover{
     /* my name, job title, description */
     .featured{
         font-size: 170%;
-        padding-right: 5%;
+        padding-right: 20%;
     }
     
     .featured-jobtitle{
         font-size: 150%;
         top: 320px;
-        padding-right: 5%;
+        padding-right: 20%;
     }
     
     .featured-name{
         font-size: 200%;
-        padding-right: 5%;
+        padding-right: 20%;
     }
 
     /* image for the featured projects  */
@@ -428,9 +429,8 @@ img:hover{
 
     /* hamburger menu  */
     .menu-icon{
-        cursor: pointer;
-        width: 30px; 
         display: block;
+     
     }
     
     #menuList{
